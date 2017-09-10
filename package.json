@@ -1,28 +1,28 @@
 {
-  "name": "webscraper",
-  "version": "1.0.0",
-  "description": "week 18 hw web scraper",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lsussan/webScraper.git"
-  },
-  "author": "Louis Sussan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lsussan/webScraper/issues"
-  },
-  "homepage": "https://github.com/lsussan/webScraper#readme",
-  "dependencies": {
-    "body-parser": "^1.17.2",
-    "cheerio": "^1.0.0-rc.2",
-    "express": "^4.15.4",
-    "express-handlebars": "^3.0.0",
-    "mongoose": "^4.11.9",
-    "morgan": "^1.8.2",
-    "request": "^2.81.0"
-  }
+    "name": "webscraper",
+    "version": "1.0.0",
+    "description": "week 18 hw web scraper",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lsussan/webScraper.git"
+    },
+    "author": "Louis Sussan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lsussan/webScraper/issues"
+    },
+    "homepage": "https://github.com/lsussan/webScraper#readme",
+    "dependencies": {
+        "body-parser": "^1.17.2",
+        "cheerio": "^1.0.0-rc.2",
+        "express": "^4.15.4",
+        "express-handlebars": "^3.0.0",
+        "mongoose": "^4.11.9",
+        "morgan": "^1.8.2",
+        "request": "^2.81.0"
+    }
 }
